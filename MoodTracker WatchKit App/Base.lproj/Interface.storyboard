@@ -13,7 +13,7 @@
                         <imageView alignment="center" image="1" id="RWo-dX-AaZ"/>
                         <separator alignment="left" id="Fxz-fQ-4Xo"/>
                         <label alignment="center" text="Current Mood" id="r7F-1Q-Fub"/>
-                        <slider width="1" alignment="left" maximum="4" steps="3" id="KD6-hd-bIf">
+                        <slider width="1" alignment="left" maximum="4" steps="4" id="KD6-hd-bIf">
                             <connections>
                                 <action selector="moodSliderChanged:" destination="AgC-eL-Hgc" id="bO7-3c-jIw"/>
                             </connections>
@@ -27,7 +27,7 @@
                         <switch width="1" alignment="left" value="YES" title="Offer Advice" id="974-4f-oBt"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Record Mood" id="ATb-EY-3qE">
                             <connections>
-                                <segue destination="B0B-nJ-YTT" kind="push" id="ZkO-Df-jlI"/>
+                                <action selector="recordMoodTapped" destination="AgC-eL-Hgc" id="7Hv-sP-TpI"/>
                             </connections>
                         </button>
                     </items>

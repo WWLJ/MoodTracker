@@ -60,8 +60,24 @@ class InterfaceController: WKInterfaceController {
         moodImage.setImageNamed("\(currentMood + 1)")
     }
     
-//    @IBAction func recordMoodTapped() {
-//        pushControllerWithName("MoodDetailsController", context: nil)
+    //VC之间的跳转
+    @IBAction func recordMoodTapped() {
+        //代码的跳转
+        
+        // push
+        pushControllerWithName("MoodDetailsController", context: MoodContextData(moodIndex: currentMood))
+        //modal
 //        presentControllerWithName("MoodDetailsController", context: nil)
+    }
+    
+    
+//    override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
+//        if segueIdentifier == "RecordMoodSegue" {
+//            MoodContextData(moodIndex: currentMood)
+//        }
+//        return nil
 //    }
+    
 }
+
+

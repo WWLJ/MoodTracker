@@ -20,6 +20,7 @@
 		1183145B1C2A91EA00BAB7B3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1183145A1C2A91EA00BAB7B3 /* ExtensionDelegate.swift */; };
 		1183145D1C2A91EA00BAB7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1183145C1C2A91EA00BAB7B3 /* Assets.xcassets */; };
 		118314611C2A91EA00BAB7B3 /* MoodTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 118314471C2A91EA00BAB7B3 /* MoodTracker WatchKit App.app */; };
+		11D0F2221C5F41350081A054 /* MoodContextData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D0F2211C5F41350081A054 /* MoodContextData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		1183145A1C2A91EA00BAB7B3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		1183145C1C2A91EA00BAB7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1183145E1C2A91EA00BAB7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D0F2211C5F41350081A054 /* MoodContextData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodContextData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				118314581C2A91EA00BAB7B3 /* InterfaceController.swift */,
 				1183145A1C2A91EA00BAB7B3 /* ExtensionDelegate.swift */,
 				1178DA811C5B403400E1A99F /* MoodDetailsController.swift */,
+				11D0F2211C5F41350081A054 /* MoodContextData.swift */,
 				1183145C1C2A91EA00BAB7B3 /* Assets.xcassets */,
 				1183145E1C2A91EA00BAB7B3 /* Info.plist */,
 			);
@@ -300,6 +303,7 @@
 			files = (
 				1183145B1C2A91EA00BAB7B3 /* ExtensionDelegate.swift in Sources */,
 				1178DA821C5B403400E1A99F /* MoodDetailsController.swift in Sources */,
+				11D0F2221C5F41350081A054 /* MoodContextData.swift in Sources */,
 				118314591C2A91EA00BAB7B3 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
